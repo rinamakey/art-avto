@@ -1,0 +1,97 @@
+.accardion{
+    list-style-type: none;
+    margin: 16px;
+    padding: 16px;
+    width: 50%;
+}
+
+.accardion-item{
+    margin-bottom: 15px;
+    border-radius: 10px;
+ 
+}
+
+.accardion-header{
+    position: relative;
+    padding: 20px 60px 20px 30px;
+    cursor: pointer;
+    border: 0;
+    font-size: 21px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.accardion-header:hover{
+    letter-spacing: .5px;
+    color:rgb(82, 82, 82);
+    transition: .5s;
+}
+
+.accardion-collaps{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+
+.accardion-collaps.open{
+    height: auto;
+}
+
+
+.accardion-body{
+    padding: 30px 60px 30px 30px;
+    font-size: 18px;
+    color: rgb(103, 103, 103);
+    text-shadow: 0.3px 0.3px  0.3px  black;
+}
+/*icon*/
+ .accardion-arrow{
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 30px;
+  top: 50%;
+  right: 2px;
+  color: black;
+  transform: translateY(-50%);
+  transition: .5s;
+}
+
+
+.accardion-arrow.active{
+  transform: translateY(-50%)rotate(180deg);
+  color:rgb(249, 153, 27);
+  transition: .5s;
+}
+
+ .arrow{
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 30px;
+  top: 50%;
+  right: 2px;
+  color: black;
+  transform: translateY(-50%);
+  transition: .5s;
+}
+ .arrow.active{
+  transform: translateY(-50%)rotate(180deg);
+  color:rgb(249, 153, 27);
+  transition: .5s;
+} 
+
+@media(max-width:900px){
+    .accardion{
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        width: 85%;
+    }
+
+    
+.accardion-header{
+    font-size: 18px;
+
+}
+}

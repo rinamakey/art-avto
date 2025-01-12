@@ -1,0 +1,85 @@
+            /*dark mode button*/
+
+.dark-mode-btn{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50px;
+    height: 25px;
+
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #272727;
+    border: #767474;
+}
+
+.dark-mode-btn::before{
+    content: "";
+
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    display: block;
+
+    width: 23px;
+    height: 23px;
+
+    border-radius: 50%;
+    background-color: white;
+
+    transition: left 0.2s ease-in;
+}
+
+.dark-mode-btn--active::before {
+    left: 26px;
+}
+
+.dark-mode-btn_icon{
+    position: relative;
+    z-index: 9;
+    
+}
+
+
+
+.dark{
+    background-color: #0b0b0b;
+    color:white;
+}
+.flowtext{
+    margin-right: 40%;
+    letter-spacing: 3px;
+    color: rgb(226, 224, 224);
+    text-transform: uppercase;
+    font-size: 30px;
+
+
+    background: linear-gradient(90deg, #f16412,#f8a879,white, #2df934,#bcf4be,white, #6333ff,#cda6f4,white);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+} 
+@keyframes textflow{
+    to {background-position: 0% center}
+    from {background-position:200% center}         
+} 
+@media(max-width:900px){
+    .flowtext{
+        font-size: 25px;
+      }
+      .dark-mode-btn{
+        width: 40px;
+        height: 20px;
+      }
+      .dark-mode-btn::before{
+        width: 23px;
+        height: 20px;
+      }
+      .dark-mode-btn--active::before {
+        left: 21px;
+    }
+}

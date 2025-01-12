@@ -1,0 +1,190 @@
+                /*Ad.js*/
+
+.audiPro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: .3px;
+        }
+        
+        
+.audis{
+    width: 500px;
+    height: 360px;
+    padding: 0.4px;
+        }
+#car{
+    display: none;
+        }
+
+#car1{
+    display: none;
+        }
+
+#car2{
+    display: none;
+        }
+            
+        /*1*/
+            
+            
+.one{
+    color:white;
+    }
+
+.one:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+    }
+
+.class{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 60px;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px black;
+        }
+                
+                
+                /*2*/
+                
+.two{
+    color: white;
+    }
+
+.two:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+        }
+
+.clasC{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 60px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+.clasV{
+position: absolute;
+margin-top: 220px;
+margin-left: 60px;
+font-size: 31px;
+text-shadow: 1px 1px 1px black;
+    }
+
+
+    /*3*/
+
+.three{
+    color:white;
+    }
+
+.three:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+        }
+
+.clas{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 150px;
+    font-size: 21px;
+    text-shadow: 1px 1px 1px black;
+        }
+
+.clasD{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+    font-size: 27px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+
+/*4*/
+
+.for{
+    color:white;
+    }
+
+.for:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+    }
+
+.classA{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 60px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+/*5*/
+
+.five{
+    color:white;
+    }
+
+.five:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+    }
+
+.artmotorss{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+    letter-spacing: 2px;
+    font-size: 43px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+    .clasb{
+    position: absolute;
+    margin-top:230px;
+    margin-left: 60px;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+/*6*/
+
+.six{
+    color:white;
+    }
+
+.six:hover{
+    transition: .5s;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .3px;
+    }
+
+.artmotor{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 140px;
+    font-size: 31px;
+    text-shadow: 1px 1px 1px black;
+    }
+
+
+.clasA{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 150px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    }
