@@ -26,10 +26,12 @@ function Sale(){
             <a className="fut"> c 10:00 до 20:00</a>
         </div>
 
+
         <div className="futer-block">
             <h2> Мы находимся по адресу: </h2>
             <a className="fut"> Выборгское шоссе 313 корп 12 </a>
         </div>
+
 
         <div className="futer-block">
             <h2> Телефон</h2>

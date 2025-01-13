@@ -1,6 +1,6 @@
-import quality from'./1.png';
-import speed from'./2.png';
-import avto from'./3.png';
+import quality from'./main/1.png';
+import speed from'./main/2.png';
+import avto from'./main/3.png';
 import paralax from'./art-Av.jpeg';
 
 
@@ -11,6 +11,7 @@ function Forms() {
         <div className="servised">
             <h3 >Наши преимущества</h3>
         </div>
+
 
         <div className="content">
             <div className="works">

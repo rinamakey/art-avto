@@ -3,7 +3,7 @@ import { BsFillGeoFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
 
-function Futer () {
+function Footer () {
 
     return(
 
@@ -19,10 +19,12 @@ function Futer () {
                 <a className="fut"> 8(905)352-92-22 </a>
             </div>
 
+
             <div className="futer-block">
                 <h2><BsFillGeoFill /> Мы находимся по адресу: </h2>
                 <a className="fut"> Выборгское шоссе 313 корп 12 </a>
             </div>
+
 
             <div className="futer-block">
                 <h2><MdEmail /> Электронная почта: </h2>
@@ -34,4 +36,4 @@ function Futer () {
         </div>     
     )
 }
-export default Futer;
+export default Footer;

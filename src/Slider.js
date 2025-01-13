@@ -1,9 +1,9 @@
 import React from "react";
 import {Carousel } from "react-bootstrap";
-import audi from'./audi.jpeg';
-import lamba from'./Lamborghini.jpeg';
-import cool from'./cool.jpeg';
-
+import audi from'./main/audi.jpeg';
+// import lamba from'./main/Lamborghini.jpeg';
+import cool from'./main/cool.jpeg';
+import aud from'./main/aud.bl.jpeg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -38,7 +38,7 @@ function Slider() {
         <Carousel.Item >
             <img
                 className="d-block w-100"
-                src={lamba}
+                src={aud}
                 alt="f"
             />
             <Carousel.Caption>

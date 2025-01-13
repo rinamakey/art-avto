@@ -1,5 +1,5 @@
-import parts from'./parts.jpg'; 
-import motor from'./motor.jpg';
+import parts from'./main/parts.jpg'; 
+import motor from'./main/motor.jpg';
 
 
 function SpareParts(){

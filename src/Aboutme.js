@@ -1,4 +1,4 @@
-import av from'./avt-100.jpg';
+import av from'./main/avt-100.jpg';
 
 function Aboutme(){
 

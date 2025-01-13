@@ -5,7 +5,7 @@ import React, { useState} from "react";
 
 
 
-export const Accardion = ({title,content}) => {
+export const Accardion = ( { title, content } ) => {
 
     const [OpenId, setOpenId] = useState(null);
   
@@ -13,13 +13,16 @@ export const Accardion = ({title,content}) => {
    
     return(<ul className="accardion">
 
-                {List.map((list,id) => {
+                {List.map((list,idx) => {
 
                         return(
-                            <AccardionItem  onClick={()=>(id === OpenId? setOpenId(null) : setOpenId(id))}
+                            <AccardionItem  key={ idx } onClick={()=>(idx === OpenId? setOpenId(null) : setOpenId(idx))}
+
                             list={list}
-                            OpenId={ id === OpenId }
-                            key={ id }/>
+
+                            OpenId={ idx === OpenId }
+
+                        />
                         )
 
                   
