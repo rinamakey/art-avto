@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 
 import './App.css';
-import Sale from "./Sale";
+import Sale from "./Sale/Sale";
 // import { useState, useEffect} from 'react';
 import BtnDarkMode from "./BtnDarkMode/BtnDarkMode";
 

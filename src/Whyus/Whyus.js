@@ -1,4 +1,4 @@
-import why from'./main/AVTO5.jpeg';
+import why from'./../main/AVTO5.jpeg';
 
 function Whyus(){
 

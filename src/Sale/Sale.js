@@ -1,6 +1,6 @@
 
-import Diagnostik from "./Diagnostik";
-import Slider from "./Slider";
+import Diagnostik from "../Diagnostic/Diagnostik";
+import Slider from "../Slider/Slider";
 
 function Sale(){
 

@@ -1,6 +1,6 @@
-import diagnost from'./main/diagnost.jpg';
-import advice from'./main/advice.jpg';
-import './App.css';
+import diagnost from'./../main/diagnost.jpg';
+import advice from'./../main/advice.jpg';
+import './../App.css';
 
 
 function Diagnostik (){

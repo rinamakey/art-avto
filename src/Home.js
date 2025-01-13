@@ -1,18 +1,18 @@
 import audi0001 from './main/audi0000.jpeg';
-import NameAvto from './NameAvto';
+import NameAvto from './NameAvto/NameAvto';
 import { data } from './Avto/data';
 import Avto from './Avto/Avto';
 import { useState } from 'react';
 import Buttons from './Avto/Buttons';
-import Forms from './Forms';
+import Forms from './Form/Forms';
 import { Accardion } from './Acardion/Accardion';
-import SpareParts from './SpareParts';
-import Aboutme from './Aboutme';
-import Whyus from './Whyus';
-import Layba from './Layba';
+import SpareParts from './SparePart/SpareParts';
+import Aboutme from './About/Aboutme';
+import Whyus from './Whyus/Whyus';
+import Layba from './Layba/Layba';
 import Ad from './Ad/Ad';
 import Footer from './Footer';
-import Application from './Application';
+import Application from './Application/Application';
 import BtnDarkMode from './BtnDarkMode/BtnDarkMode';
 
 

@@ -1,7 +1,7 @@
-import quality from'./main/1.png';
-import speed from'./main/2.png';
-import avto from'./main/3.png';
-import paralax from'./art-Av.jpeg';
+import quality from'./../main/1.png';
+import speed from'./../main/2.png';
+import avto from'./../main/3.png';
+import paralax from'./../art-Av.jpeg';
 
 
 function Forms() {
